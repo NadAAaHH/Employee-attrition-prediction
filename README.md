@@ -1,8 +1,11 @@
 ![image](https://github.com/NadAAaHH/Employee-attrition-prediction/assets/37195258/348fc4ae-6f6c-48c5-8ca9-fcc4d1968d44)
 
-# Employee Attrition Prediction: What leads employees to leave their organization?
+# Employee Attrition Prediction: Why Do Employees Leave Their Organization?
+
+### What's the Problem & Why it's Important?
 Employee attrition is a normal part of any business, but it can have a negative impact on the activities of other employees and the company's recruitment process. By understanding the reasons why employees leave, companies can take steps to address these issues and create a more positive and engaging work environment. This can lead to improved employee retention, which can save businesses money and help them achieve their goals.
 
+### What is the Goal of This Project?
 By exploring and analyzing the employee data, this project aims to develop a predictive model that can determine which employees are most likely to leave.
 
 # Data
