@@ -1,4 +1,4 @@
-![image](https://github.com/NadAAaHH/Employee-attrition-prediction/assets/37195258/348fc4ae-6f6c-48c5-8ca9-fcc4d1968d44)
+<img src="https://i.giphy.com/media/kf8bMrmElVACLbFCDg/giphy.webp" alt="drawing" width="200"/>
 
 # Employee Attrition Prediction: Why Do Employees Leave Their Organization?
 
