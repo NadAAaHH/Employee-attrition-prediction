@@ -17,14 +17,14 @@ This project aims to develop a predictive model that can determine which employe
 
 
 # Analysis
-Based on the above findings, we concluded that the following facotrs have the most impact on the attrition:
+Based on the above findings, the following factors were found to have the most impact on employee attrition:
 1. Newly recruited employees 
 2. At late 20's and early 30's 
 3. Living far from work 
 
 
 # Model Development
-Since this is a supervised classification problem, 3 models were picked:
+Since this is a supervised classification problem, the following classification models were picked for training:
 * Random Forest
 * Logistic Regression
 * Neural Network
