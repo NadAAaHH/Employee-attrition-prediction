@@ -37,12 +37,12 @@ To evaluate the models performance, the following measurements were used:
 * Accuracy
 
 ### Performance
-Top models by performance:
-* Random Forest
-* Logistic Regression
-* Neural Network
 
-(+ percentage on correct & incorrect classification, Precision, Recall, Accuracy)
+| Model | Accuracy    | Precision    | Recall    |
+| :---:   | :---: | :---: | :---: |
+| Neural Network | 87.96 %   | --   | --   |
+| Random Forest | 86.68 %   | --   | --   |
+| Logistic Regression | 75.54 %   | --   | --   |
 
 # Conclusion
 After conducting the results of the models, we can conclude the top Reasons why employees leave the organization:
