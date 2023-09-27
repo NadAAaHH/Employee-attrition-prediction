@@ -8,27 +8,30 @@ Employee attrition is a normal part of any business, but it can have a negative 
 ### What's the Goal of This Project?
 This project aims to develop a predictive model that can determine which employees are most likely to leave based on various information about the employees.
 
+&nbsp;
 
-# Data
+# Dataset Analysis
+#### Data
 * **Source:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).
 * **Dataset Structure:** 1470 samples (rows), 35 features (variables)
 * **Data Type:** categorical and numerical
 * **Label:** <code>'Attrition'</code> is the label in this dataset, with 'Yes' indicate leaving and 'No' indicate staying. Therefore, the label is binary.
 
-
-# Analysis
+&nbsp;
+### Exploratory Data Analysis
 Based on the above findings, the following factors were found to have the most impact on employee attrition:
 1. Newly recruited employees 
 2. At late 20's and early 30's 
 3. Living far from work 
 
-
+&nbsp;
 # Model Development
-Since this is a supervised classification problem, the following classification models were picked for training:
+Since this is a **supervised classification problem** with binary label, the following classification models were picked for training:
 * Random Forest
 * Logistic Regression
 * Neural Network
-
+  
+&nbsp;
 ### Evaluation
 To evaluate the models performance, the following measurements were used:
 * Confusion matrix
@@ -36,6 +39,7 @@ To evaluate the models performance, the following measurements were used:
 * Recall
 * Accuracy
 
+&nbsp;
 ### Performance
 
 | Model | Accuracy    | Precision    | Recall    |
@@ -44,6 +48,7 @@ To evaluate the models performance, the following measurements were used:
 | Random Forest | 86.68 %   | --   | --   |
 | Logistic Regression | 75.54 %   | --   | --   |
 
+&nbsp;
 # Conclusion
 After conducting the results of the models, we can conclude the top Reasons why employees leave the organization:
 * No Overtime: This was a surpirse, employees who don't have overtime are most likely to leave the organization. This could be that employees would like to have a higher amount of income or employees could feel that they are underused.
