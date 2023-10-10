@@ -11,7 +11,7 @@ This project aims to develop a predictive model that can determine which employe
 &nbsp;
 
 # Dataset Analysis
-#### Data
+#### Data Statistics
 * **Source:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 * **Dataset Structure:** 1470 samples (rows), 35 features (variables)
 * **Data Type:** categorical and numerical
