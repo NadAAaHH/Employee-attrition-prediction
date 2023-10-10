@@ -12,7 +12,7 @@ This project aims to develop a predictive model that can determine which employe
 
 # Dataset Analysis
 #### Data
-* **Source:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).
+* **Source:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 * **Dataset Structure:** 1470 samples (rows), 35 features (variables)
 * **Data Type:** categorical and numerical
 * **Label:** <code>'Attrition'</code> is the label in this dataset, with ('Yes') indicate leaving and ('No') indicate staying. Therefore, the label is binary.
