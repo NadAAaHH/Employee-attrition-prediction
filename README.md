@@ -1,6 +1,8 @@
+# `Employee Attrition Prediction`: Why Do Employees Leave Their Organization?
+
 <img src="https://i.giphy.com/media/kf8bMrmElVACLbFCDg/giphy.webp" alt="drawing" width="200"/>
 
-# Employee Attrition Prediction: Why Do Employees Leave Their Organization?
+➽ Predict Employee Attrition with Supervised Machine Learning Models. 
 
 ### What's the Problem & Why it's Important?
 Employee attrition is a normal part of any business, but it can have a negative impact on the activities of other employees and the company's recruitment process. By understanding the reasons why employees leave, companies can take steps to address these issues and create a more positive and engaging work environment. This can lead to improved employee retention, which can save businesses money and help them achieve their goals.
