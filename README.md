@@ -1,28 +1,42 @@
-# `Employee Attrition Prediction`: Why Do Employees Leave Their Organization?
+# `Employee Attrition Prediction`: Identify Early Warning Signs of Employee Turnover 
 
 <img src="https://i.giphy.com/media/kf8bMrmElVACLbFCDg/giphy.webp" alt="drawing" width="200"/>
 
-➽ Predict Employee Attrition with Supervised Machine Learning Models. 
+➽ Predict Employee Attrition with Supervised Machine Learning Models.  
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dwyl/imgup/ci.yml?label=build&style=flat-square&branch=main)
+[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/imgup/main.svg?style=flat-square)](https://codecov.io/github/dwyl/imgup?branch=main)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/imgup/issues)
+[![contributions welcome](https://img.shields.io/badge/feedback-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/app-mvp/issues)
+
+&nbsp;
+### Table of Contents
+1. [Problem Definition & Objectives](#header-1)
+2. [Data Statistics & Exploratory Data Analysis (EDA)](#data)
+3. [Model Development](#model-development)
+4. [Cluster Analysis](#cluster-analysis)
+
+&nbsp;
+# <a id="header-1"></a> Problem Definition & Objectives
 ### What's the Problem & Why it's Important?
 Employee attrition is a normal part of any business, but it can have a negative impact on the activities of other employees and the company's recruitment process. By understanding the reasons why employees leave, companies can take steps to address these issues and create a more positive and engaging work environment. This can lead to improved employee retention, which can save businesses money and help them achieve their goals.
 
-&nbsp;
 
+&nbsp;
 ### What's the Goal of This Project?
-This project aims to develop a predictive model that can determine which employees are most likely to leave based on various information about the employee's personal and professional history.
+This project aims to develop a predictive model that can determine which employees are most likely to leave based on various information about their personal and professional history.
 
 &nbsp;
-
 # Dataset Analysis
 #### Data Statistics
 * **Source:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 * **Dataset Structure:** 1470 samples (rows), 35 features (variables)
 * **Data Type:** categorical and numerical
-* **Label:** <code>'Attrition'</code> is the label in this dataset, with ('Yes') indicate leaving and ('No') indicate staying. Therefore, the label is binary.
+* **Label:** The dataset uses the binary label <code>Attrition</code> to indicate employee turnover ('Yes') or retention ('No').
 
+ 
 &nbsp;
-### Exploratory Data Analysis
+### Exploratory Data Analysis (EDA)
 Based on the above findings, the following factors were found to have the most impact on employee attrition:
 1. Newly recruited employees 
 2. At late 20's and early 30's 
