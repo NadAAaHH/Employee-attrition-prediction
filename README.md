@@ -31,7 +31,10 @@ This project aims to develop a predictive model that can determine which employe
 #### Data Statistics
 * **Source:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 * **Dataset Structure:** 1470 samples (rows), 35 features (variables)
-* **Data Type:** categorical and numerical
+* * **Data Types:** 9 categorical, 26 numeric
+* **Missing cells:** 0
+* **Total size in memory:**	402.1+ KB
+* **Average record size in memory:**	199.0 B
 * **Label:** The dataset uses the binary label <code>Attrition</code> to indicate employee turnover ('Yes') or retention ('No').
 
  
