@@ -78,14 +78,14 @@ Based on the above findings, the following factors were found to have the most i
 
 &nbsp;
 # Model Development
-Since this is a **supervised classification problem** with binary label, the following classification models were picked for training:
+Since this is a **supervised binary classification problem** , several the classification models were trained and tested. The three best-performing models were:
 * Random Forest
 * Logistic Regression
-* Neural Network
+* Support Vector Machine (SVM)
   
 &nbsp;
 ### Evaluation
-To evaluate the models performance, the following measurements were used:
+To evaluate the models performance, the following metrics were measured:
 * Confusion matrix
 * Precision
 * Recall
@@ -96,9 +96,9 @@ To evaluate the models performance, the following measurements were used:
 
 | Model | Accuracy    | Precision    | Recall    |
 | :---:   | :---: | :---: | :---: |
-| Neural Network | 87.96 %   | --   | --   |
 | Random Forest | 86.68 %   | --   | --   |
 | Logistic Regression | 75.54 %   | --   | --   |
+| Support Vector Machine (SVM) | 87.96 %   | --   | --   |
 
 &nbsp;
 # Conclusion
