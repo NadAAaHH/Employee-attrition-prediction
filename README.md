@@ -42,6 +42,8 @@ This project aims to develop a predictive model that can determine which employe
 &nbsp;
 ### Exploratory Data Analysis (EDA)  
 
+#### Bivariate Analysis
+
 #### ➤ Job Level vs Monthly Income
 <img src="Screenshots/JobLevel vs MonthlyIncome.png"/>
 
@@ -68,45 +70,17 @@ The line slopes upwards, indicating a positive correlation between `Age` and `Mo
 &nbsp;
 #### Target Variable Analysis
 
-```html
-<!DOCTYPE html>
-<html>
-
-<body>
-
-  <h2>Image Grid</h2>
-
-  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
-
-    <div>
-      <img src="Screenshots/Attrition vs JobLevel.png" alt="Image 1" style="width:100%;">
-    </div>
-
-    <div>
-      <img src="Screenshots/Attrition vs MonthlyIncome.png" alt="Image 2" style="width:100%;">
-    </div>
-
-    <div>
-      <img src="Screenshots/Attrition vs TotalWorkingYears.png" alt="Image 3" style="width:100%;">
-    </div>
-
-    <!-- Add more images as needed -->
-
-  </div>
-
-</body>
-
-</html>
-
+image grid
 
 Based on the above findings, the following factors were found to have the most impact on employee attrition:
 1. Late 20's - late 40's.
 2. Live closer to work.
 3. Low income.
 4. Newly hired (No prior experience).
-5. Single.
-6. Working in Research & Development department.
-7. Eihter Laboratory Technician, Sales Executive or Research Scientist.
+5. Entry-Level.
+6. Single.
+7. Working in Research & Development department.
+8. Either Laboratory Technician, Sales Executive or Research Scientist.
 
 &nbsp;
 # Model Development
