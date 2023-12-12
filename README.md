@@ -100,11 +100,11 @@ To evaluate the models performance, the following metrics were measured:
 &nbsp;
 ### Performance
 
-| Model | Accuracy    | Precision    | Recall    |
-| :---:   | :---: | :---: | :---: |
-| Random Forest | 86.68 %   | --   | --   |
-| Logistic Regression | 75.54 %   | --   | --   |
-| Support Vector Machine (SVM) | 87.96 %   | --   | --   |
+| Model | Accuracy    | Precision    | Recall    | Confusion matrix    |
+| :---:   | :---: | :---: | :---: | :---: |
+| Random Forest | 86.68 %   | --   | --   | --   |
+| Logistic Regression | 75.54 %   | --   | --   | --   |
+| Support Vector Machine (SVM) | 87.96 %   | --   | --   | --   |
 
 &nbsp;
 # Conclusion
