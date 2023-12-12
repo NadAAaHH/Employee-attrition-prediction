@@ -33,33 +33,34 @@ This project aims to develop a predictive model that can determine which employe
 * **Dataset Structure:** 1470 samples (rows), 35 features (variables)
 * **Data Types:** 9 categorical, 26 numeric
 * **Missing cells:** 0
-* **Total size in memory:**	402.1+ KB
-* **Average record size in memory:**	199.0 B
+* **Missing cells (%):**	0.0%
+* **Total size in memory:**	1.1 MiB
+* **Average record size in memory:** 796.8 B
 * **Label:** The dataset uses the binary label <code>Attrition</code> to indicate employee turnover ('Yes') or retention ('No').
 
  
 &nbsp;
 ### Exploratory Data Analysis (EDA)  
 
-#### ➤ JobLevel vs MonthlyIncome
+#### ➤ Job Level vs Monthly Income
 <img src="Screenshots/JobLevel vs MonthlyIncome.png"/>
 
 The line chart shows a nearly straight positive slope, indicating a strong correlation between `JobLevel` and `MonthlyIncome` . This means that on average, employees with higher job levels earn higher income each month.
 
 &nbsp;
-#### ➤ PerformanceRating vs PercentSalaryHike
+#### ➤ Performance Rating vs Percent SalaryHike
 <img src="Screenshots/PerformanceRating vs PercentSalaryHike.png"/>  
 
 The line chart shows a straight positive slope, indicating a strong correlation between `PerformanceRating` and `PercentSalaryHike` . Indicating that employees with higher performance ratings tend to receive higher salary hikes.  
 
 &nbsp;
-#### ➤ TotalWorkingYears vs MonthlyIncome
+#### ➤ Total Working Years vs Monthly Income
 <img src="Screenshots/TotalWorkingYears vs MonthlyIncome.png"/>  
 
 The line on the graph shows a general trend of increasing `MonthlyIncome` with increasing `TotalWorkingYears` . However, there is a dramatic increase at `TotalWorkingYears` of 20. Suggesting that employees with 20+ years of experience receive approximately twice the income compared to those with less than 20 years of experience. The error band is also growing with the rising trend of the line.  
 
 &nbsp;
-#### ➤ Age vs MonthlyIncome
+#### ➤ Age vs Monthly Income
 <img src="Screenshots/Age vs MonthlyIncome.png"/>  
 
 The line slopes upwards, indicating a positive correlation between `Age` and `MonthlyIncome` . This means that on average, employees earn higher income as they get older. Additionally, the growing error band as the line it goes to the right indicates an increased in the uncertainty or variability of the data.  
@@ -67,14 +68,45 @@ The line slopes upwards, indicating a positive correlation between `Age` and `Mo
 &nbsp;
 #### Target Variable Analysis
 
+```html
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h2>Image Grid</h2>
+
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+
+    <div>
+      <img src="Screenshots/Attrition vs JobLevel.png" alt="Image 1" style="width:100%;">
+    </div>
+
+    <div>
+      <img src="Screenshots/Attrition vs MonthlyIncome.png" alt="Image 2" style="width:100%;">
+    </div>
+
+    <div>
+      <img src="Screenshots/Attrition vs TotalWorkingYears.png" alt="Image 3" style="width:100%;">
+    </div>
+
+    <!-- Add more images as needed -->
+
+  </div>
+
+</body>
+
+</html>
+
+
 Based on the above findings, the following factors were found to have the most impact on employee attrition:
-1. Late 20's - late 40's
-2. live closer to work
-3. low income
-4. newly hired, no prior experience
-5. Single
-6. Research & Development dept
-7. Laboratory Technician, Sales Executive or Research Scientist
+1. Late 20's - late 40's.
+2. Live closer to work.
+3. Low income.
+4. Newly hired (No prior experience).
+5. Single.
+6. Working in Research & Development department.
+7. Eihter Laboratory Technician, Sales Executive or Research Scientist.
 
 &nbsp;
 # Model Development
