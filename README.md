@@ -1,4 +1,4 @@
-# `Employee Attrition Prediction`: Identify Early Warning Signs of Employee Turnover 
+# `Employee Attrition Prediction`: Identify Early Signs of Employee Turnover 
 
 <img src="https://i.giphy.com/media/kf8bMrmElVACLbFCDg/giphy.webp" alt="drawing" width="200"/>
 
@@ -36,7 +36,7 @@ This project aims to develop a predictive model that can determine which employe
 * **Missing cells (%):**	0.0%
 * **Total size in memory:**	1.1 MiB
 * **Average record size in memory:** 796.8 B
-* **Label:** The dataset uses the binary label <code>Attrition</code> to indicate employee turnover ('Yes') or retention ('No').
+* **Label:** The dataset uses the binary label <code>Attrition</code> to indicate employee turnover ('Yes') or retention ('No'). The data indicates a significant class imbalance, with 84% of employees falling into the ('No') category and only 16% in the ('Yes') category.
 
  
 &nbsp;
@@ -84,6 +84,11 @@ Based on the above findings, the following factors were found to have the most i
 
 &nbsp;
 # Model Development
+
+### Preprocessing
+
+
+### Pipeline
 Since this is a **supervised binary classification problem** , several the classification models were trained and tested. The three best-performing models were:
 * Random Forest
 * Logistic Regression
