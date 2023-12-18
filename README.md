@@ -63,7 +63,7 @@ The line on the graph shows a general trend of increasing `MonthlyIncome` with i
 
 &nbsp;
 #### ➤ Age vs Monthly Income
-<img src="Screenshots/Age vs MonthlyIncome.png"/>  
+<img src="Screenshots/Age vs MonthlyIncome.png" width="600" height="450"/>  
 
 The line slopes upwards, indicating a positive correlation between `Age` and `MonthlyIncome` . This means that on average, employees earn higher income as they get older. Additionally, the growing error band as the line it goes to the right indicates an increased in the uncertainty or variability of the data.  
 
@@ -76,40 +76,40 @@ Based on the above findings, the following factors were found to have the most i
 1. Late 20's - late 40's.
 2. Live closer to work.
 3. Low income.
-4. Newly hired (No prior experience).
-5. Entry-Level.
-6. Single.
-7. Working in Research & Development department.
-8. Either Laboratory Technician, Sales Executive or Research Scientist.
+4. Newly hired.
+5. No prior experience.
+6. Entry-Level.
+7. Single.
+8. Working in Research & Development department.
+9. Either Laboratory Technician, Sales Executive or Research Scientist.
 
 &nbsp;
 # Model Development
 
-### Preprocessing
-
-
 ### Pipeline
-Since this is a **supervised binary classification problem** , several the classification models were trained and tested. The three best-performing models were:
-* Random Forest
+Since this is a **supervised binary classification problem** , several the classification models were trained and tested. The four best-performing models were:
 * Logistic Regression
-* Support Vector Machine (SVM)
+* Random Forest
+* Gaussian Naive Bayes
+* Decision Tree
   
 &nbsp;
 ### Evaluation
 To evaluate the models performance, the following metrics were measured:
 * Confusion matrix
+* ROC-AUC (given the imbalance in the dataset, in this case AUC-ROC considered a better choice than Accuracy because a model can achieve high accuracy by simply predicting the majority class)
 * Precision
 * Recall
-* Accuracy
 
 &nbsp;
 ### Performance
 
-| Model | Accuracy    | Precision    | Recall    | Confusion matrix    |
+| Model | ROC-AUC    | Precision    | Recall    | Confusion matrix    |
 | :---:   | :---: | :---: | :---: | :---: |
-| Random Forest | 86.68 %   | --   | --   | --   |
-| Logistic Regression | 75.54 %   | --   | --   | --   |
-| Support Vector Machine (SVM) | 87.96 %   | --   | --   | --   |
+| Logistic Regression | 77.7 %   | 27%   | 65%   | --   |
+| Random Forest | 75.7%   | 27%   | 50%   | --   |
+| Gaussian Naive Bayes | 71.8 %   | 24%   | 71%   | --   |
+| Decision Tree | 63.4%    | 21%   | 54%   | --   |
 
 &nbsp;
 # Conclusion
