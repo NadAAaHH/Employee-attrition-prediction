@@ -90,9 +90,7 @@ Based on the above findings, the following factors were found to have the most i
 9. Either Laboratory Technician, Sales Executive or Research Scientist.
 
 &nbsp;
-# Model Development
-
-### Model
+# Model Development  
 Since this is a **supervised binary classification problem** , several the classification models were trained and tested. The four best-performing models based on AUC-ROC score were:
 1. Logistic Regression
 2. Random Forest
@@ -107,8 +105,8 @@ To evaluate the models performance, the following metrics were measured:
 * Precision
 * Recall
 
-&nbsp;
-The below numbers represent the models performance in predicting the Attrition class:
+
+The below numbers represent the models performance in predicting the Attrition ('Yes') class:
 | Model | ROC-AUC    | Precision    | Recall    | Confusion matrix    |
 | :---:   | :---: | :---: | :---: | :---: |
 | Logistic Regression | 77.7 %   | 27%   | 65%   | [Click to View](Screenshots/LR_CM.png)   |
