@@ -44,27 +44,31 @@ The data indicates a significant class imbalance, with 84% of employees falling 
 &nbsp;
 ### Exploratory Data Analysis (EDA)  
 
-#### Bivariate Analysis
+#### Bivariate Analysis  
 
-#### ➤ Job Level vs Monthly Income
+➤ Job Level vs Monthly Income  
+
 <img src="Screenshots/JobLevel vs MonthlyIncome.png"/>
 
 The line chart shows a nearly straight positive slope, indicating a strong correlation between `JobLevel` and `MonthlyIncome` . This means that on average, employees with higher job levels earn higher income each month.
 
 &nbsp;
-#### ➤ Performance Rating vs Percent SalaryHike
+➤ Performance Rating vs Percent SalaryHike  
+
 <img src="Screenshots/PerformanceRating vs PercentSalaryHike.png"/>  
 
 The line chart shows a straight positive slope, indicating a strong correlation between `PerformanceRating` and `PercentSalaryHike` . Indicating that employees with higher performance ratings tend to receive higher salary hikes.  
 
 &nbsp;
-#### ➤ Total Working Years vs Monthly Income
+➤ Total Working Years vs Monthly Income  
+
 <img src="Screenshots/TotalWorkingYears vs MonthlyIncome.png"/>  
 
 The line on the graph shows a general trend of increasing `MonthlyIncome` with increasing `TotalWorkingYears` . However, there is a dramatic increase at `TotalWorkingYears` of 20. Suggesting that employees with 20+ years of experience receive approximately twice the income compared to those with less than 20 years of experience. The error band is also growing with the rising trend of the line.  
 
 &nbsp;
-#### ➤ Age vs Monthly Income
+➤ Age vs Monthly Income  
+
 <img src="Screenshots/Age vs MonthlyIncome.png" width="600" height="450"/>  
 
 The line slopes upwards, indicating a positive correlation between `Age` and `MonthlyIncome` . This means that on average, employees earn higher income as they get older. Additionally, the growing error band as the line it goes to the right indicates an increased in the uncertainty or variability of the data.  
@@ -88,12 +92,12 @@ Based on the above findings, the following factors were found to have the most i
 &nbsp;
 # Model Development
 
-### Pipeline
-Since this is a **supervised binary classification problem** , several the classification models were trained and tested. The four best-performing models were:
-* Logistic Regression
-* Random Forest
-* Gaussian Naive Bayes
-* Decision Tree
+### Model
+Since this is a **supervised binary classification problem** , several the classification models were trained and tested. The four best-performing models based on AUC-ROC score were:
+1. Logistic Regression
+2. Random Forest
+3. Gaussian Naive Bayes
+4. Decision Tree
   
 &nbsp;
 ### Evaluation and Performance
