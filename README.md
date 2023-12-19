@@ -12,7 +12,7 @@
 &nbsp;
 ### Table of Contents
 1. [Problem Definition & Objectives](#header-1)
-2. [Data Statistics & Exploratory Data Analysis (EDA)](#dataset-analysis)
+2. [Dataset Analysis](#dataset-analysis)
 3. [Model Development](#model-development)
 
 &nbsp;
