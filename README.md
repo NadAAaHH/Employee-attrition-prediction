@@ -12,9 +12,8 @@
 &nbsp;
 ### Table of Contents
 1. [Problem Definition & Objectives](#header-1)
-2. [Data Statistics & Exploratory Data Analysis (EDA)](#data)
+2. [Data Statistics & Exploratory Data Analysis (EDA)](#dataset-analysis)
 3. [Model Development](#model-development)
-4. [Cluster Analysis](#cluster-analysis)
 
 &nbsp;
 # <a id="header-1"></a> Problem Definition & Objectives
@@ -36,7 +35,10 @@ This project aims to develop a predictive model that can determine which employe
 * **Missing cells (%):**	0.0%
 * **Total size in memory:**	1.1 MiB
 * **Average record size in memory:** 796.8 B
-* **Label:** The dataset uses the binary label <code>Attrition</code> to indicate employee turnover ('Yes') or retention ('No'). The data indicates a significant class imbalance, with 84% of employees falling into the ('No') category and only 16% in the ('Yes') category.
+* **Label:** The dataset uses the binary label <code>Attrition</code> to indicate employee turnover ('Yes') or retention ('No').
+  &nbsp;
+<img src="Screenshots/Attrition Imbalance.png" width="300" height="250"/>
+The data indicates a significant class imbalance, with 84% of employees falling into the ('No') category and only 16% in the ('Yes') category.
 
  
 &nbsp;
@@ -94,30 +96,25 @@ Since this is a **supervised binary classification problem** , several the class
 * Decision Tree
   
 &nbsp;
-### Evaluation
+### Evaluation and Performance
 To evaluate the models performance, the following metrics were measured:
 * Confusion matrix
-* ROC-AUC (given the imbalance in the dataset, in this case AUC-ROC considered a better choice than Accuracy because a model can achieve high accuracy by simply predicting the majority class)
+* AUC-ROC: given the imbalance in the dataset, focusing solely on Accuracy could be misleading. A model could simply predict the majority class to achieve high accuracy, but miss important insights into identifying the minority class. Therefore, we opted for AUC-ROC as a more robust performance metric.
 * Precision
 * Recall
 
 &nbsp;
-### Performance
-
+The below numbers represent the models performance in predicting the Attrition class:
 | Model | ROC-AUC    | Precision    | Recall    | Confusion matrix    |
 | :---:   | :---: | :---: | :---: | :---: |
-| Logistic Regression | 77.7 %   | 27%   | 65%   | --   |
-| Random Forest | 75.7%   | 27%   | 50%   | --   |
-| Gaussian Naive Bayes | 71.8 %   | 24%   | 71%   | --   |
-| Decision Tree | 63.4%    | 21%   | 54%   | --   |
+| Logistic Regression | 77.7 %   | 27%   | 65%   | [Click to View](Screenshots/LR_CM.png)   |
+| Random Forest | 75.7%   | 27%   | 50%   | [Click to View](Screenshots/RF_CM.png)   |
+| Gaussian Naive Bayes | 71.8 %   | 24%   | 71%   | [Click to View](Screenshots/GN_CM.png)   |
+| Decision Tree | 63.4%    | 21%   | 54%   | [Click to View](Screenshots/DT_CM.png)   |  
 
 &nbsp;
-# Conclusion
-After conducting the results of the models, we can conclude the top Reasons why employees leave the organization:
-* No Overtime: This was a surpirse, employees who don't have overtime are most likely to leave the organization. This could be that employees would like to have a higher amount of income or employees could feel that they are underused.
-* Monthly Income: As expected, Income is a huge factor as why employees leave the organization in search for a better salary.
-* Age: This could also be expected, since people who are aiming to retire will leave the organization.
-  
-Knowing the most likely reasons why employees leave the organization, can help the organization take action and reduce the level of Attrition inside the organization.
+#### &nbsp;&nbsp;&nbsp; ▶️ For more details, please check the notebook file [here](Customer_Segmentation.ipynb). 
+ 
+&nbsp;
 
-
+### ░░░░░  Thank you for your interest in this project! I hope you find it helpful😄 ░░░░░ 
