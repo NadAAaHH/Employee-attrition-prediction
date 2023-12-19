@@ -117,7 +117,7 @@ The below numbers represent the models performance in predicting the Attrition c
 | Decision Tree | 63.4%    | 21%   | 54%   | [Click to View](Screenshots/DT_CM.png)   |  
 
 &nbsp;
-#### &nbsp;&nbsp;&nbsp; ▶️ For more details, please check the notebook file [here](Customer_Segmentation.ipynb). 
+#### &nbsp;&nbsp;&nbsp; ▶️ For more details, please check the notebook file [here](Human_Resources_Department.ipynb). 
  
 &nbsp;
 
